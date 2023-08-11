@@ -36,5 +36,6 @@ def get():
 # get/?name=alex&age=13&level=80 
 # ответ ImmutableMultiDict([('name', 'alex'), ('age', '13'), ('level', '80')])
 
+
 if __name__ == "__main__":
     app.run(debug=True)
